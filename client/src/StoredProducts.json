@@ -1,0 +1,40 @@
+{   
+    "store_id": "STORE-001",
+    "time_stamp":"2026-11-13T15:12:00Z",
+    "products":[
+        {
+              "product_id": "prod_1001",
+      "sku": "COF-ESP-001",
+      "barcode": "079357311234",
+      "name": "Espresso Roast Beans (250g)",
+      "category": "Coffee & Tea",
+      "price": 129.99,
+      "cost_price": 65.00,
+      "tax_rate": 15.0,
+      "stock_quantity": 42,
+      "unit": "pack",
+      "is_active": true,
+      "attributes": {
+        "weight_g": 250,
+        "brand": "Local Roasters"
+      }
+    },
+    {
+      "product_id": "prod_1002",
+      "sku": "BEV-LAT-002",
+      "barcode": "079357311567",
+      "name": "Caramel Latte (Large)",
+      "category": "Beverages",
+      "price": 45.00,
+      "cost_price": 12.50,
+      "tax_rate": 15.0,
+      "stock_quantity": null,
+      "unit": "cup",
+      "is_active": true,
+      "attributes": {
+        "size": "L",
+        "customizable": true
+      }
+    }
+  ]
+}
